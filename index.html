@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>BonAffaire</title><link rel="stylesheet" href="style.css"></head>
+<body><div class="app">
+<header><div class="brand"><div class="logo">€</div><div><b>BonAffaire</b><small>Le radar des bonnes affaires</small></div></div><button class="round">⚙</button></header>
+<main>
+<section class="hero"><div class="pill">✦ ANALYSE DU MARCHÉ</div><h1>Trouve les objets<br><span>qui valent le coup.</span></h1><p>Recherche un objet et découvre son prix réel d'occasion, les annonces comparables et le prix maximum à payer.</p>
+<div class="search"><span>⌕</span><input id="query" value="Nintendo Game Boy Color Atomic Purple" placeholder="Que cherches-tu ?"><button id="photo">⌕<small>PHOTO</small></button></div>
+<div class="suggest"><button data-q="Nintendo Game Boy Color Atomic Purple">Game Boy Color</button><button data-q="PS2 Slim">PS2 Slim</button><button data-q="iPhone 15 128 Go">iPhone 15</button></div></section>
+<section class="buy"><div><label>Prix trouvé en brocante</label><strong><span>€</span><input id="buy" value="25" type="number"></strong></div><button id="go">Analyser <span>→</span></button></section>
+<section id="results">
+<div class="identified"><div class="device">GBC</div><div><small>OBJET IDENTIFIÉ</small><h2 id="name">Nintendo Game Boy Color — Atomic Purple</h2><p>Modèle CGB-001 · Identification 96%</p></div></div>
+<div class="heroresult"><div class="verdict"><span id="score">91</span><small>/100</small></div><div><b id="verdict">EXCELLENTE AFFAIRE</b><p id="summary">Le prix d'achat est nettement inférieur au marché.</p></div><div class="arrow">→</div></div>
+<div class="stats"><article><small>VALEUR MARCHÉ</small><b id="value">72 €</b><span>revente probable</span></article><article><small>BÉNÉFICE NET</small><b id="profit">40 €</b><span>après frais estimés</span></article><article><small>PRIX MAX</small><b id="max">47 €</b><span>pour 30% de marge</span></article></div>
+<div class="sectionhead"><div><h3>Annonces comparables</h3><p>Prix actuellement observés sur le web</p></div><span id="n">6 résultats</span></div>
+<div class="filters"><button class="selected">Toutes</button><button>Vendu</button><button>Particulier</button></div>
+<div id="list"></div>
+<div class="sectionhead markethead"><div><h3>Lecture du marché</h3><p>Ce que l'app en déduit</p></div></div>
+<div class="analysis"><div><span>Prix bas</span><b>60 €</b></div><div class="line"><i style="left:18%"></i><i class="median"></i><i style="left:78%"></i></div><div class="labels"><span>60 €</span><b>72 € médian</b><span>95 €</span></div></div>
+<div class="notice">Les exemples ci-dessous proviennent de pages d'annonces publiques trouvées lors de la recherche. Dans la vraie version, ils seront récupérés automatiquement et dédoublonnés.</div>
+</section></main>
+<nav><button class="active">⌕<span>Recherche</span></button><button>◷<span>Historique</span></button><button>♡<span>Favoris</span></button></nav>
+</div><script src="app.js"></script></body></html>
